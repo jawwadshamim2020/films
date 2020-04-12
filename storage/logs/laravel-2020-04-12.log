@@ -1,0 +1,319 @@
+[2020-04-12 05:47:59] local.ERROR: Class 'User' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'User' not found at C:\\xampp\\htdocs\\films\\database\\seeds\\UsersTableSeeder.php:14)
+[stacktrace]
+#0 [internal function]: UsersTableSeeder->run()
+#1 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#5 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(44): Illuminate\\Database\\Seeder->__invoke()
+#7 C:\\xampp\\htdocs\\films\\database\\seeds\\DatabaseSeeder.php(14): Illuminate\\Database\\Seeder->call('UsersTableSeede...')
+#8 [internal function]: DatabaseSeeder->run()
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#12 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#13 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#14 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#17 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#20 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#21 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#22 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#23 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#24 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#25 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 {main}
+"} 
+[2020-04-12 05:48:52] local.ERROR: Call to undefined method App\User::makeUser() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\User::makeUser() at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php:50)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Model::throwBadMethodCallException('makeUser')
+#1 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1618): Illuminate\\Database\\Eloquent\\Model->forwardCallTo(Object(Illuminate\\Database\\Eloquent\\Builder), 'makeUser', Array)
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1630): Illuminate\\Database\\Eloquent\\Model->__call('makeUser', Array)
+#3 C:\\xampp\\htdocs\\films\\database\\seeds\\UsersTableSeeder.php(26): Illuminate\\Database\\Eloquent\\Model::__callStatic('makeUser', Array)
+#4 [internal function]: UsersTableSeeder->run()
+#5 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(44): Illuminate\\Database\\Seeder->__invoke()
+#11 C:\\xampp\\htdocs\\films\\database\\seeds\\DatabaseSeeder.php(14): Illuminate\\Database\\Seeder->call('UsersTableSeede...')
+#12 [internal function]: DatabaseSeeder->run()
+#13 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#14 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#20 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#21 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#22 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#23 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 {main}
+"} 
+[2020-04-12 05:58:18] local.ERROR: Undefined index: email {"exception":"[object] (ErrorException(code: 0): Undefined index: email at C:\\xampp\\htdocs\\films\\app\\User.php:69)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\app\\User.php(69): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined index...', 'C:\\\\xampp\\\\htdocs...', 69, Array)
+#1 C:\\xampp\\htdocs\\films\\app\\User.php(53): App\\User->userExists(Array)
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(1630): App\\User->makeUser(Array)
+#3 C:\\xampp\\htdocs\\films\\database\\seeds\\UsersTableSeeder.php(17): Illuminate\\Database\\Eloquent\\Model::__callStatic('makeUser', Array)
+#4 [internal function]: UsersTableSeeder->run()
+#5 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(44): Illuminate\\Database\\Seeder->__invoke()
+#11 C:\\xampp\\htdocs\\films\\database\\seeds\\DatabaseSeeder.php(14): Illuminate\\Database\\Seeder->call('UsersTableSeede...')
+#12 [internal function]: DatabaseSeeder->run()
+#13 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#14 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#20 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#21 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#22 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#23 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#27 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 {main}
+"} 
+[2020-04-12 06:01:51] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Darren@test.com' for key 'users_email_unique' (SQL: insert into `users` (`email`, `name`, `password`) values (Darren@test.com, Darren, $2y$10$wnuxGVmj.WDbDtpyfIsBJO7htunHgxV7WE584cBFcQ9ze7vx8U2q.), (Jorge@test.com, Jorge, $2y$10$0N46RBasepP6q9wrKBSRlOKHhQkLU26zirX8g/foPpwj4FgWtaupC), (Raphael@test.com, Raphael, $2y$10$T5ijk2P5t0w.In/uLvxUfuTpcryn/YsYQMvfAuHwmw98i1ad6oy/C)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Darren@test.com' for key 'users_email_unique' (SQL: insert into `users` (`email`, `name`, `password`) values (Darren@test.com, Darren, $2y$10$wnuxGVmj.WDbDtpyfIsBJO7htunHgxV7WE584cBFcQ9ze7vx8U2q.), (Jorge@test.com, Jorge, $2y$10$0N46RBasepP6q9wrKBSRlOKHhQkLU26zirX8g/foPpwj4FgWtaupC), (Raphael@test.com, Raphael, $2y$10$T5ijk2P5t0w.In/uLvxUfuTpcryn/YsYQMvfAuHwmw98i1ad6oy/C)) at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Darren@test.com' for key 'users_email_unique' at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:458)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('insert into `us...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement('insert into `us...', Array)
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2646): Illuminate\\Database\\Connection->insert('insert into `us...', Array)
+#4 C:\\xampp\\htdocs\\films\\database\\seeds\\UsersTableSeeder.php(26): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: UsersTableSeeder->run()
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(44): Illuminate\\Database\\Seeder->__invoke()
+#12 C:\\xampp\\htdocs\\films\\database\\seeds\\DatabaseSeeder.php(14): Illuminate\\Database\\Seeder->call('UsersTableSeede...')
+#13 [internal function]: DatabaseSeeder->run()
+#14 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#20 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#21 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#22 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#23 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#24 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 
+[2020-04-12 06:46:01] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' (SQL: insert into `users` (`comments`, `created_at`, `film_id`, `updated_at`, `user_id`) values (The film is punchy, landing some great jokes that will make you laugh out loud, with an entertaining, slightly predictable story. It wasn’t as good as the first 'Jumanji', but it is a great quality sequel and is full of family fun!, 2020-04-12 06:46:01, 3, 2020-04-12 06:46:01, 1), (First, let me start with a disclaimer: I grew up with 'Speed Racer', and while I don't remember much about the show I do remember loving it and the sound of 'Go, Speed Racer, Go' evoked that feeling.
+
+                Sitting in the theater and watching this wonderfully outlandish vision of the original Saturday morning cartoon definitely took me back to those days. I had to force myself from leaping to my feet and yelling 'Go, Speed, Go' during the two key races in the film.
+                
+                The Wachowskis have managed to adapt a cartoon production into a cartoony live-action film. DO NOT go into this film expecting realism, if that's what you are after skip 'Speed Racer' it is over-the-top, outlandish, and in complete violation of the rules of physics, but IT IS BASED ON A CARTOON! Loved it, loved it, loved it!!! Can't wait for it to come out on blu-ray.
+                17 out of 29 found this helpful. Was this review helpful? Sign in to vote., 2020-04-12 06:46:01, 1, 2020-04-12 06:46:01, 2), (Home Alone 2 has pretty much the same plot as the first movie, but Home Alone 2 is a very good sequel. The new traps for the Wet, er... Sticky Bandits are great. Once again Joe Pesci and Daniel Stern give wonderful performances. Having Tim Curry in this was also a treat. There is a lot of enjoyment in this movie., 2020-04-12 06:46:01, 2, 2020-04-12 06:46:01, 3)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' (SQL: insert into `users` (`comments`, `created_at`, `film_id`, `updated_at`, `user_id`) values (The film is punchy, landing some great jokes that will make you laugh out loud, with an entertaining, slightly predictable story. It wasn’t as good as the first 'Jumanji', but it is a great quality sequel and is full of family fun!, 2020-04-12 06:46:01, 3, 2020-04-12 06:46:01, 1), (First, let me start with a disclaimer: I grew up with 'Speed Racer', and while I don't remember much about the show I do remember loving it and the sound of 'Go, Speed Racer, Go' evoked that feeling.
+
+                Sitting in the theater and watching this wonderfully outlandish vision of the original Saturday morning cartoon definitely took me back to those days. I had to force myself from leaping to my feet and yelling 'Go, Speed, Go' during the two key races in the film.
+                
+                The Wachowskis have managed to adapt a cartoon production into a cartoony live-action film. DO NOT go into this film expecting realism, if that's what you are after skip 'Speed Racer' it is over-the-top, outlandish, and in complete violation of the rules of physics, but IT IS BASED ON A CARTOON! Loved it, loved it, loved it!!! Can't wait for it to come out on blu-ray.
+                17 out of 29 found this helpful. Was this review helpful? Sign in to vote., 2020-04-12 06:46:01, 1, 2020-04-12 06:46:01, 2), (Home Alone 2 has pretty much the same plot as the first movie, but Home Alone 2 is a very good sequel. The new traps for the Wet, er... Sticky Bandits are great. Once again Joe Pesci and Daniel Stern give wonderful performances. Having Tim Curry in this was also a treat. There is a lot of enjoyment in this movie., 2020-04-12 06:46:01, 2, 2020-04-12 06:46:01, 3)) at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('insert into `us...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement('insert into `us...', Array)
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2646): Illuminate\\Database\\Connection->insert('insert into `us...', Array)
+#4 C:\\xampp\\htdocs\\films\\database\\seeds\\CommentsTableSeeder.php(37): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: CommentsTableSeeder->run()
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(44): Illuminate\\Database\\Seeder->__invoke()
+#12 C:\\xampp\\htdocs\\films\\database\\seeds\\DatabaseSeeder.php(16): Illuminate\\Database\\Seeder->call('CommentsTableSe...')
+#13 [internal function]: DatabaseSeeder->run()
+#14 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#17 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#20 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#21 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#22 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#23 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#24 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 {main}
+"} 
+[2020-04-12 06:47:49] local.ERROR: The "--CommentsTableSeeder" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--CommentsTableSeeder\" option does not exist. at C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\ArgvInput.php:203)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\ArgvInput.php(147): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption('CommentsTableSe...', NULL)
+#1 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\ArgvInput.php(81): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption('--CommentsTable...')
+#2 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 
+[2020-04-12 06:48:06] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\ArgvInput.php:174)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('CommentsTableSe...')
+#1 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2020-04-12 06:48:28] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' (SQL: insert into `users` (`comments`, `created_at`, `film_id`, `updated_at`, `user_id`) values (The film is punchy, landing some great jokes that will make you laugh out loud, with an entertaining, slightly predictable story. It wasn’t as good as the first 'Jumanji', but it is a great quality sequel and is full of family fun!, 2020-04-12 06:48:28, 3, 2020-04-12 06:48:28, 1), (First, let me start with a disclaimer: I grew up with 'Speed Racer', and while I don't remember much about the show I do remember loving it and the sound of 'Go, Speed Racer, Go' evoked that feeling., 2020-04-12 06:48:28, 1, 2020-04-12 06:48:28, 2), (Home Alone 2 has pretty much the same plot as the first movie, but Home Alone 2 is a very good sequel. The new traps for the Wet, er... Sticky Bandits are great. Once again Joe Pesci and Daniel Stern give wonderful performances. Having Tim Curry in this was also a treat. There is a lot of enjoyment in this movie., 2020-04-12 06:48:28, 2, 2020-04-12 06:48:28, 3)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' (SQL: insert into `users` (`comments`, `created_at`, `film_id`, `updated_at`, `user_id`) values (The film is punchy, landing some great jokes that will make you laugh out loud, with an entertaining, slightly predictable story. It wasn’t as good as the first 'Jumanji', but it is a great quality sequel and is full of family fun!, 2020-04-12 06:48:28, 3, 2020-04-12 06:48:28, 1), (First, let me start with a disclaimer: I grew up with 'Speed Racer', and while I don't remember much about the show I do remember loving it and the sound of 'Go, Speed Racer, Go' evoked that feeling., 2020-04-12 06:48:28, 1, 2020-04-12 06:48:28, 2), (Home Alone 2 has pretty much the same plot as the first movie, but Home Alone 2 is a very good sequel. The new traps for the Wet, er... Sticky Bandits are great. Once again Joe Pesci and Daniel Stern give wonderful performances. Having Tim Curry in this was also a treat. There is a lot of enjoyment in this movie., 2020-04-12 06:48:28, 2, 2020-04-12 06:48:28, 3)) at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments' in 'field list' at C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(459): Illuminate\\Database\\Connection->run('insert into `us...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(411): Illuminate\\Database\\Connection->statement('insert into `us...', Array)
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2646): Illuminate\\Database\\Connection->insert('insert into `us...', Array)
+#4 C:\\xampp\\htdocs\\films\\database\\seeds\\CommentsTableSeeder.php(32): Illuminate\\Database\\Query\\Builder->insert(Array)
+#5 [internal function]: CommentsTableSeeder->run()
+#6 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Seeder.php(124): Illuminate\\Container\\Container->call(Array)
+#11 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(63): Illuminate\\Database\\Seeder->__invoke()
+#12 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Concerns\\GuardsAttributes.php(122): Illuminate\\Database\\Console\\Seeds\\SeedCommand->Illuminate\\Database\\Console\\Seeds\\{closure}()
+#13 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Seeds\\SeedCommand.php(64): Illuminate\\Database\\Eloquent\\Model::unguarded(Object(Closure))
+#14 [internal function]: Illuminate\\Database\\Console\\Seeds\\SeedCommand->handle()
+#15 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#16 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#17 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#18 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#19 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#20 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#21 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#22 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Seeds\\SeedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#27 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 {main}
+"} 
+[2020-04-12 11:46:39] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:auth         Scaffold basic login and registration views and routes
+    make:channel      Create a new channel class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:migration    Create a new migration file
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:auth         Scaffold basic login and registration views and routes
+    make:channel      Create a new channel class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:migration    Create a new migration file
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class. at C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php:710)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('make:')
+#1 C:\\xampp\\htdocs\\films\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\films\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\films\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
